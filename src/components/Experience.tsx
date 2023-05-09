@@ -6,20 +6,17 @@ export const Experience = () => {
         <div className="min-h-screen flex flex-col-reverse md:grid md:grid-cols-2">
 
             {/* left */}
-            <div className="flex md:flex-col items-start justify-center space-y-9">
-                <h1>Welcome to CoinBase</h1>
+            <div className="ps-20 flex md:flex-col items-start justify-center space-y-9">
+                <h1>Great experience with coinbase</h1>
                 
                 <h2>
-                    We have the best rates. Simply start your exchange right now. Sign
-                    up for our Affiliate program and earn commission from each
-                    exchange. The earnings are credited in your account instantly an
-                    can be withdrawn right away, Also note some exchange directions
-                    are hidden for unregistered user. To ensure to have access to all
-                    our exchange directions and benefits kindly sign up and verify your
-                    identity.
+                    CoinBase is an online site and a p2admin platform that allows
+                    users to buy, sell and/ or exchange digital and fiat assets safely.
+                    Owned and managed by CoinBase Business Services established
+                    and Incoperated in Nigeria.
                 </h2>
 
-                <span className="bg-fuchsia-600 rounded-full px-9 py-3">Discover</span>
+                <span className="rounded-full px-9 py-3" id="button">Discover</span>
 
             </div>
 

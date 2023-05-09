@@ -208,6 +208,10 @@ li:focus-within > button > .arrow {
   }
 }
 
+#dropdown1 li a:hover {
+  background: linear-gradient(to top, #FD749B, #281AC8);
+}
+
 #hero-background {
   background: url(/src/assets/hero-background.png.png);
   background-position: center;
@@ -228,6 +232,9 @@ li:focus-within > button > .arrow {
 
 #subscribe-input {
   border: 2px solid black;
-  
 }
 
+#button {
+  background: linear-gradient(to top, #FD749B, #281AC8);
+  cursor: pointer;
+}

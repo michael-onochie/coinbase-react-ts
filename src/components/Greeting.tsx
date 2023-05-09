@@ -5,14 +5,9 @@ export const Greeting = () => {
     <>
         <div className="min-h-screen flex flex-col-reverse md:grid md:grid-cols-2">
 
-            {/* left */}
-            <div className="flex items-center">
-                <img className="" src={GreetingPic} alt="" />
-
-            </div>
 
             {/* right */}
-            <div className="flex md:flex-col items-start justify-center space-y-9">
+            <div className="flex md:flex-col ps-20 items-start justify-center space-y-9">
                 <h1>Welcome to CoinBase</h1>
                 
                 <h2>
@@ -24,9 +19,12 @@ export const Greeting = () => {
                     our exchange directions and benefits kindly sign up and verify your
                     identity.
                 </h2>
+                <span className="rounded-full px-9 py-3" id="button">Discover</span>
+            </div>
 
-                <span className="bg-fuchsia-600 rounded-full px-9 py-3">Discover</span>
-
+             {/* left */}
+             <div className="flex items-center">
+                <img className="" src={GreetingPic} alt="" />
             </div>
             
         </div>

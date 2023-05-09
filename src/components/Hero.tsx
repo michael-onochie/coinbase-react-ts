@@ -18,7 +18,7 @@ export const Hero = () => {
                     giftcard at the best rate, why not give us a trial.
                 </h2>
 
-                <span className="bg-fuchsia-600 rounded-full px-9 py-3">GET STARTED</span>
+                <span className="bg-white text-slate-950 rounded-full px-9 py-3">GET STARTED</span>
 
             </div>
 

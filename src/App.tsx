@@ -15,7 +15,7 @@ import { TradeAnywhere  } from './components/TradeAnywhere';
 function App() {
   return (
     <>
-      <div className='container w-full'>
+      <div className='container w-full overflow-hidden' id='main-div'>
           <Navbar />
           <Hero />
           <Greeting />
