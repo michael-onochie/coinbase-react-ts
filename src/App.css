@@ -199,7 +199,7 @@ li:focus-within > button > .arrow {
   }
   
   ul li:hover .dropdown {
-    height: 135px;
+    height: 100px;
   }
   
   ul li:hover > button > .arrow {
@@ -237,4 +237,6 @@ li:focus-within > button > .arrow {
 #button {
   background: linear-gradient(to top, #FD749B, #281AC8);
   cursor: pointer;
+  color: white;
+  font-weight: 700;
 }

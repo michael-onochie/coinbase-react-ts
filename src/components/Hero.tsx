@@ -3,10 +3,10 @@ import HeroPic from "../assets/hero-pic.png"
 export const Hero = () => {
   return (
     <>
-        <div className="flex flex-col-reverse md:grid md:grid-cols-2" id="hero-background">
+        <div className="flex flex-col-reverse md:grid md:grid-cols-2 " id="hero-background">
 
             {/* left */}
-            <div className="ps-20 flex md:flex-col items-start justify-center space-y-9">
+            <div className="ps-20 flex flex-col md:flex-col items-start justify-center space-y-9 mb-5">
                 <h1>
                     We provide easy solution <br />
                     to exchange your Bitcoin/ <br />

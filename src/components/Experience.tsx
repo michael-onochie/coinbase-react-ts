@@ -3,10 +3,10 @@ import ExperiencePic from "../assets/experience-pic.png";
 export const Experience = () => {
   return (
     <>
-        <div className="min-h-screen flex flex-col-reverse md:grid md:grid-cols-2">
+        <div className="min-h-screen space-y-5 flex flex-col-reverse md:grid md:grid-cols-2">
 
             {/* left */}
-            <div className="ps-20 flex md:flex-col items-start justify-center space-y-9">
+            <div className="ps-20 flex md:flex-col items-start justify-center space-y-9 ">
                 <h1>Great experience with coinbase</h1>
                 
                 <h2>
@@ -23,10 +23,8 @@ export const Experience = () => {
             {/* right */}
             <div className="flex items-center">
                 <img className="" src={ExperiencePic} alt="" />
-
             </div>
 
-            
             
         </div>
     </>
