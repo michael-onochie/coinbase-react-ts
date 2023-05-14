@@ -1,9 +1,10 @@
 import GreetingPic from "../assets/greeting-pic.png";
+import LineLG from "../assets/line-lg.png";
 
 export const Greeting = () => {
   return (
     <>
-        <div className="flex flex-col space-y-6 md:grid md:grid-cols-2 mb-6 " id="hero-background">
+        <div className="flex flex-col space-y-6 md:grid md:grid-cols-2 pb-6" id="hero-background">
 
             {/* left */}
             <div className="md:flex md:flex-col justify-center">
@@ -13,7 +14,10 @@ export const Greeting = () => {
 
             {/* right */}
             <div className="flex flex-col sm:px-26 md:flex-col items-center space-y-9 mb-8 md:ps-20 md:py-5">
-                <h1>Welcome to CoinBase</h1>
+                <div className="space-y-3">
+                    <h1>Welcome to CoinBase</h1>
+                    <img src={LineLG} alt="" />
+                </div>
                 
                 <h2 className="text-center">
                     We have the best rates. Simply start your exchange right now. Sign
@@ -25,8 +29,7 @@ export const Greeting = () => {
                     identity.
                 </h2>
 
-                <span className="bg-white text-slate-950 rounded-full px-9 py-3" id="button">DISCOVER</span>
-
+                <span className="bg-white text-slate-950 rounded-full px-9 py-3 cursor-pointer" id="button">DISCOVER</span>
             </div>
             
         </div>

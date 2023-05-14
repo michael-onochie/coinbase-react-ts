@@ -32,7 +32,7 @@ export const Navbar = () => {
                         <li><a href="#">Sell Giftcard</a></li>
                       </ul>
                     </li>
-                    <li className='sm:block  bg-fuchsia-600 rounded-full px-5'><a href="#" className="text-center">Login</a></li>
+                    <li className='inline-block px-12 justify-center items-center bg-fuchsia-600 rounded-full ms-[26%] mb-3'><a href="#" className="text-center">Login</a></li>
                   </ul>
                 </nav>
             </div>

@@ -240,3 +240,11 @@ li:focus-within > button > .arrow {
   color: white;
   font-weight: 700;
 }
+
+#border {
+  border: solid;
+  border-color: #d84fba;
+  border-radius: 20px;
+  width: 182px;
+  height: 146px;
+}
