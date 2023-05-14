@@ -3,8 +3,8 @@ import Rates from '../assets/rates.png';
 export const Services = () => {
   return (
     <>
-        <div>
-            <img src={Rates} alt="services" className='h-[428px] w-[100%]' />
+        <div className=''>
+            <img src={Rates} alt="services" className='h-[428px] md:h-[800px] w-[100%]' />
         </div>
     </>
   )

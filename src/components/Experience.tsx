@@ -7,13 +7,13 @@ export const Experience = () => {
         <div className="min-h-screen space-y-5 flex flex-col md:grid md:grid-cols-2">
 
             {/* left */}
-            <div className="flex flex-col sm:px-26 md:flex-col items-center space-y-9 mb-8 md:ps-20 md:py-5">
+            <div className="flex flex-col sm:px-26 items-center md:items-start space-y-9 mb-8 md:px-20 md:py-5 justify-center">
                <div className="space-y-3">
-                    <h1>Great experience with coinbase</h1>
+                    <span id="span-text" className="text-4xl font-bold">Great experience  <br /> with coinbase</span>
                     <img src={LineLG} alt="" />
                </div>
                 
-                <h2 className="text-center">
+                <h2 className="leading-9 text-center md:text-start">
                     CoinBase is an online site and a p2admin platform that allows
                     users to buy, sell and/ or exchange digital and fiat assets safely.
                     Owned and managed by CoinBase Business Services established
@@ -25,7 +25,7 @@ export const Experience = () => {
             </div>
 
             {/* right */}
-            <div className="flex items-center">
+            <div className="flex items-center justify-center">
                 <img className="" src={ExperiencePic} alt="" />
             </div>
 

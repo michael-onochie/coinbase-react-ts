@@ -1,4 +1,5 @@
 import PlayStore from '../assets/google-play-store.png';
+import LineLG from "../assets/line-lg.png";
 import AppStore from '../assets/app-store.png';
 import IphoneX1 from '../assets/X-1.png';
 import IphoneX2 from '../assets/X-2.png';
@@ -10,11 +11,14 @@ export const AppDownload = () => {
     <>
         <div className=''>
             
-            <div className='text-center mx-auto space-y-12 mt-3'>
-                <div>
-                    <h1>Download our app</h1>
-                    <p>
-                        Discover exclusive deals and discounts with
+            <div className='mx-auto space-y-12 mt-3'>
+                <div className='items-center text-center space-y-10'>
+                    <div className='flex flex-col items-center'>
+                        <h1  className='text-4xl text-4xl font-bold' id="span-text">Download our app</h1>
+                        <img src={LineLG} alt="" />
+                    </div>
+                    <p className='font-medium'>
+                        Discover exclusive deals and discounts with <br />
                         our mobile experience.
                     </p>
                 </div>

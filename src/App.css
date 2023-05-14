@@ -217,6 +217,16 @@ li:focus-within > button > .arrow {
   background-position: center;
   background-repeat: no-repeat;
   color: whitesmoke;
+  /* height: 100%; */
+}
+#greeting-bg {
+  background: url(/src/assets/greeting-bg.png);
+  background-position: top;
+  /* margin-bottom: 140px; */
+}
+
+#trade-anywhere {
+  background:url(/src/assets/trade-anywhere-bg.png);
 }
 
 #section-app-download {
@@ -231,7 +241,16 @@ li:focus-within > button > .arrow {
 }
 
 #subscribe-input {
-  border: 2px solid black;
+  border: 2px solid rgb(220, 25, 217);
+  transform: scale(1.2);
+}
+
+input::placeholder {
+  color: #333333;
+  font-size: 60%;
+  margin: auto auto;
+  justify-content: center;
+  align-items: center;
 }
 
 #button {
@@ -247,4 +266,12 @@ li:focus-within > button > .arrow {
   border-radius: 20px;
   width: 182px;
   height: 146px;
+}
+
+div #span-text {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #FD749B,
+    #281AC8);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
