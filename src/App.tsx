@@ -15,21 +15,21 @@ import { TradeAnywhere  } from './components/TradeAnywhere';
 function App() {
   return (
     <>
-      <div className='container w-full overflow-hidden' id='main-div'>
-          <Navbar />
-          <Hero />
-          <Greeting />
-          <Services />
-          <Experience />
-          <TradeAnywhere />
-          <Blog />
-          <Testimonies />
-          <AppDownload />
-          <Subscribe />
-          <Footer />
+      <div>
+        <Navbar />
+        <Hero />
+        <Greeting />
+        <Services />
+        <Experience />
+        <TradeAnywhere />
+        <Blog />
+        <Testimonies />
+        <AppDownload />
+        <Subscribe />
+        <Footer />
       </div>
     </>
-  )
+  );
 }
 
 export default App;

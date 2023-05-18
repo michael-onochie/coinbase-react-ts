@@ -1,0 +1,1 @@
+export {ReactComponent as SEIconHero} from './hero-pic.svg';

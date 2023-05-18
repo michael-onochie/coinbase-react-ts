@@ -1,4 +1,7 @@
-import HeroPic from "../assets/hero-pic.png"
+import React from "react";
+import { ReactComponent as ReactLogo } from '../assets/hero-pic.svg';
+ 
+
 
 export const Hero = () => {
   return (
@@ -24,7 +27,8 @@ export const Hero = () => {
 
             {/* right */}
             <div className="md:flex md:flex-col">
-                <img src={HeroPic} alt="" />
+                {/* <img src={HeroPic} alt="" /> */}
+                <ReactLogo />
             </div>
             
         </div>

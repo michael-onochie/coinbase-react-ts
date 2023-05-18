@@ -217,7 +217,7 @@ li:focus-within > button > .arrow {
   background-position: center;
   background-repeat: no-repeat;
   color: whitesmoke;
-  /* height: 100%; */
+  background-size: cover;
 }
 #greeting-bg {
   background: url(/src/assets/greeting-bg.png);
