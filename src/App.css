@@ -213,12 +213,13 @@ li:focus-within > button > .arrow {
 }
 
 #hero-background {
-  background: url(/src/assets/hero-background.png.png);
-  background-position: center;
-  background-repeat: no-repeat;
+  background-image: url(/src/assets/png/hero-bg.png);
   color: whitesmoke;
+  background-repeat: no-repeat;
   background-size: cover;
 }
+
+
 #greeting-bg {
   background: url(/src/assets/greeting-bg.png);
   background-position: top;

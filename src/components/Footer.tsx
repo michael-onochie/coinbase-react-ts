@@ -7,7 +7,7 @@ import IgBlockAdd from "../assets/ig-block-add.png";
 export const Footer = () => {
   return (
     <>
-      <div className="flex h-40 md:h-60 bg-slate-600 text-[8px] md:text-[16px]">
+      <div className="flex h-40 md:h-60 bg-slate-600 text-[8px] md:text-[16px] w-full">
         <div className="grid grid-cols-4 space-x-4 md:space-x-8 w-full h-60 bg-slate-950 text-white px-8 pt-4 md:px-16">
 
             {/* First row */}
@@ -46,7 +46,7 @@ export const Footer = () => {
               </div>
             </div>
             
-            {/* Forthrow */}
+            {/* Forth row */}
             <div className="grid grid-col text-center space-y-3">
               <h1>Contact Us</h1>
               <div className="flex flex-row md:space-x-1">
