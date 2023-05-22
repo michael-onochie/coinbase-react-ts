@@ -7,8 +7,8 @@ import IgBlockAdd from "../assets/ig-block-add.png";
 export const Footer = () => {
   return (
     <>
-      <div className="flex h-40 md:h-60 bg-slate-600 text-[8px] md:text-[16px] w-full">
-        <div className="grid grid-cols-4 space-x-4 md:space-x-8 w-full h-60 bg-slate-950 text-white px-8 pt-4 md:px-16">
+      <div className="grid h-40 md:h-60 bg-slate-600 text-[8px] md:text-[16px]">
+        <div className="grid grid-cols-5 space-x-4 md:space-x-8 h-60 bg-slate-950 text-white px-8 pt-4 md:px-16">
 
             {/* First row */}
             <div className="grid grid-col text-center -space-y-40 md:space-y-1.5">
@@ -47,8 +47,8 @@ export const Footer = () => {
             </div>
             
             {/* Forth row */}
-            <div className="grid grid-col text-center space-y-3">
-              <h1>Contact Us</h1>
+            <div className="grid grid-col ps-14 text-center space-y-3 ">
+              <h1 className="leading-5 md:leading-none">Contact Us</h1>
               <div className="flex flex-row md:space-x-1">
                 <img src={IgBlock} alt="" className="invisible md:visible"/>
                 <img src={IgBlockAdd} alt="" className="invisible md:visible"/>

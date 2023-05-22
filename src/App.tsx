@@ -26,7 +26,7 @@ function App() {
         <Testimonies />
         <AppDownload />
         <Subscribe />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
