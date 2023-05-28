@@ -12,7 +12,11 @@ export default {
       'xl': '1024px',
       '2xl': '1680px',
     },
-    extend: {},
+    extend: {
+      animation: {
+        'spin-slow': 'spin 5s linear infinite',
+      },
+    },
   },
   plugins: [],
 }

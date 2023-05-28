@@ -1,14 +1,14 @@
-import GreetingPic from "../assets/greeting-pic.png";
+import GreetingPic from "../assets/png/greeting-pic.png";
 import LineLG from "../assets/line-lg.png";
 
 export const Greeting = () => {
   return (
     <>
-        <div className="flex flex-col space-y-6 md:grid md:grid-cols-2 pb-6 md:h-[600px] md:-mb-32" id="greeting-bg">
+        <div className="flex flex-col space-y-6 md:grid md:grid-cols-2 pb-6 md:h-[600px] md:-mb-32 md:-mt-28" id="greeting-bg">
 
             {/* left */}
             <div className="md:flex md:flex-col justify-center ">
-                <img src={GreetingPic} alt="" />
+                <img src={GreetingPic} alt="" className="max-w-full .h-auto"/>
             </div>
             
 
@@ -16,7 +16,7 @@ export const Greeting = () => {
             <div className="flex flex-col px-10 md:flex-col items-center space-y-9 mb-8 md:px-6 md:py-5 justify-center">
                 <div className="flex flex-col space-y-3 items-center md:items-start justify-center">
                     <h1 className="text-3xl font-bold text-center md:text-start"  id="span-text">Welcome to CoinBase</h1>
-                    <img src={LineLG} alt="" />
+                    <img src={LineLG} alt="" className=""/>
                 </div>
                 
                 <h2 className="text-start leading-loose" >

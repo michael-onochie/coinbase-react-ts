@@ -3,7 +3,7 @@ import CoinbaseLogo from "../assets/coinbase-logo.png";
 export const Navbar = () => {
   return (
     <>
-        <header>
+        <header className="z-50">
             <div className="header-content">
     
                 <img src={CoinbaseLogo} alt="" className="logo md:me-48"/>

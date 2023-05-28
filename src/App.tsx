@@ -6,7 +6,7 @@ import { Footer } from './components/Footer';
 import { Greeting } from './components/Greeting';
 import { Hero } from './components/Hero';
 import { Navbar } from './components/Navbar';
-import { Services } from './components/Services';
+import { Rates } from './components/Rates';
 import { Subscribe } from './components/Subscribe';
 import { Testimonies} from './components/Testimonies';
 import { TradeAnywhere  } from './components/TradeAnywhere';
@@ -19,7 +19,7 @@ function App() {
         <Navbar />
         <Hero />
         <Greeting />
-        <Services />
+        <Rates />
         <Experience />
         <TradeAnywhere />
         <Blog />

@@ -1,10 +1,10 @@
-import ExperiencePic from "../assets/experience-pic.png";
+import ExperiencePic from "../assets/png/experience-pic.png";
 import LineLG from "../assets/line-lg.png";
 
 export const Experience = () => {
   return (
     <>
-        <div className="min-h-screen space-y-5 flex flex-col md:grid md:grid-cols-2">
+        <div className="space-y-5 flex flex-col px-4 md:px-0 md:grid md:grid-cols-2 mt-6">
 
             {/* left */}
             <div className="flex flex-col sm:px-26 items-center md:items-start space-y-9 mb-8 md:px-20 md:py-5 justify-center">
@@ -26,7 +26,7 @@ export const Experience = () => {
 
             {/* right */}
             <div className="flex items-center justify-center">
-                <img className="" src={ExperiencePic} alt="" />
+                <img className="max-w-full h-auto" src={ExperiencePic} alt="" />
             </div>
 
             
