@@ -47,8 +47,8 @@ export const Footer = () => {
             </div>
             
             {/* Forth row */}
-            <div className="grid grid-col ps-14 text-center space-y-3 ">
-              <h1 className="leading-5 md:leading-none">CoinBase Instagram</h1>
+            <div className="relative grid grid-col text-center space-y-3 ">
+              <h1 className="relative leading-4 md:leading-none left-14">CoinBase Instagram</h1>
               <div className="flex flex-row md:space-x-1">
                 <img src={IgBlock} alt="" className="invisible md:visible"/>
                 <img src={IgBlockAdd} alt="" className="invisible md:visible"/>

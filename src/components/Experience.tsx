@@ -13,7 +13,7 @@ export const Experience = () => {
                     <img src={LineLG} alt="" />
                </div>
                 
-                <h2 className="leading-9 text-center md:text-start">
+                <h2 className="leading-9 text-center md:text-start animate__animated animate__fadeInUp">
                     CoinBase is an online site and a p2admin platform that allows
                     users to buy, sell and/ or exchange digital and fiat assets safely.
                     Owned and managed by CoinBase Business Services established
@@ -25,7 +25,7 @@ export const Experience = () => {
             </div>
 
             {/* right */}
-            <div className="flex items-center justify-center">
+            <div className="flex items-center justify-center animate__animated animate__slideInLeft">
                 <img className="max-w-full h-auto" src={ExperiencePic} alt="" />
             </div>
 

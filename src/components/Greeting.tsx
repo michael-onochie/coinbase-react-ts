@@ -7,7 +7,7 @@ export const Greeting = () => {
         <div className="flex flex-col space-y-6 md:grid md:grid-cols-2 pb-6 md:h-[600px] md:-mb-32 md:-mt-28" id="greeting-bg">
 
             {/* left */}
-            <div className="md:flex md:flex-col justify-center ">
+            <div className="md:flex md:flex-col justify-center animate__animated animate__shakeX ">
                 <img src={GreetingPic} alt="" className="max-w-full .h-auto"/>
             </div>
             
@@ -19,7 +19,7 @@ export const Greeting = () => {
                     <img src={LineLG} alt="" className=""/>
                 </div>
                 
-                <h2 className="text-start leading-loose" >
+                <h2 className="text-start leading-loose animate__animated animate__fadeInUp" >
                     We have the best rates. Simply start your exchange right now. Sign
                     up for our Affiliate program and earn commission from each
                     exchange. The earnings are credited in your account instantly an

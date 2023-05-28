@@ -15,7 +15,7 @@ export const Subscribe = () => {
                     update of our products and services.
                 </p>
 
-                <div className="flex flex-col md:flex-row items-center md:justify-center mt-5 mb-8 space-y-4 md:space-y-0 md:space-x-12">
+                <div className=" px-10 md:px-0 flex flex-col md:flex-row items-center md:justify-center mt-5 mb-8 space-y-4 md:space-y-0 md:space-x-12">
                     <input className="rounded-xl ps-2 px-4" type="email" placeholder="EMAIL" id="subscribe-input"/>
                     <span className="rounded-full px-9 py-3" id="button">DISCOVER</span>
                 </div>

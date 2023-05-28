@@ -20,7 +20,7 @@ export const Testimonies = () => {
 
 
 
-        <div className="relative top-16 md:-top-1 w-3/4 md:w-full mx-auto">
+        <div className="relative top-16 md:-top-1 w-3/4 md:w-full mx-auto animate__animated animate__wobble">
           <img  className="md:h-64 md:w-full" src={TsBubbles}  alt="" />
             <div className="relative h-8 w-32 left-[4rem] bottom-8 md:bottom-28 md:left-[6rem] mx-auto md:h-14 md:w-48 z-50" id="holder-container">
               <div className="text-start ps-4 pt-0.5 md:pt-1 md:space-y-0.5">
